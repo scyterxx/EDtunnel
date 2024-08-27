@@ -4,6 +4,15 @@ name = "tunnelsg" # todo
 #main = "test/worker/worker-connect-test.js"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
+[[routes]]
+pattern = "sg2.captnemo.my.id"
+custom_domain = true
+[[routes]]
+pattern = "quiz.int.vidio.com.sg2.captnemo.my.id"
+custom_domain = true
+[[routes]]
+pattern = "quiz.vidio.com.sg2.captnemo.my.id"
+custom_domain = true
 
 [vars]
 # UUID = "d342d11e-d424-4583-b36e-524ab1f0afa4"
@@ -12,4 +21,4 @@ compatibility_date = "2023-05-26"
 # NODE_ID = "1"
 # API_TOKEN = "example_dev_token"
 # API_HOST = "api.v2board.com"
-UUID = "d0d31039-2cd1-42ff-9e8a-cd592059c8f4"
+UUID = "d44eb8de-eee7-4c62-9b14-c9e28d35fab7"
