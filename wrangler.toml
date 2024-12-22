@@ -1,15 +1,20 @@
-name = "tunnelsg" # todo
-#name = "cf-worker-connect-test" # todo
-#main = "test/worker/cf-cdn-cgi-trace2.js"
-#main = "test/worker/worker-connect-test.js"
+name = "vless-sgdo"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
+# node_compat = true
+workers_dev = true
+[[routes]]
+pattern = "sg1.apilyolanda.my.id"
+custom_domain = true
+[[routes]]
+pattern = "quiz.int.vidio.com.sg1.apilyolanda.my.id"
+custom_domain = true
+[[routes]]
+pattern = "quiz.vidio.com.sg1.apilyolanda.my.id"
+custom_domain = true
 
 [vars]
-# UUID = "d342d11e-d424-4583-b36e-524ab1f0afa4"
-# PROXYIP = "1.2.3.4"
-# DNS_RESOLVER_URL = "https://cloudflare-dns.com/dns-query"
-# NODE_ID = "1"
-# API_TOKEN = "example_dev_token"
-# API_HOST = "api.v2board.com"
-UUID = "d0d31039-2cd1-42ff-9e8a-cd592059c8f4"
+# PROXYIP = "211.230.110.231:50008"
+UUID = "e2fbf092-0769-477c-ab6a-bbeaf32bfa24"
+# SOCKS5 = "127.0.0.1:1080"
+# SOCKS5_RELAY = "true"
